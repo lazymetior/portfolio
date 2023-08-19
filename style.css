@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#home {
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#about {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#services {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact {
+    background-color: #ececec
+}
+
+.container {
+
+    padding: 5rem 3rem 3rem;
+
+    text-align: center;
+}
+
+.profile-img {
+    max-width: 17rem;
+    height: auto;
+    border-radius: 50%;
+}
+
+.illustration-img {
+    max-width: 25%;
+    /* Adjust the width as needed */
+    height: auto;
+    margin-top: 0;
+    /* Add some margin to separate the image from the text */
+}
+
+@media (max-width: 994px) {
+
+    .illustration-img {
+        max-width: 45%;
+        /* Adjust the width as needed */
+        height: auto;
+        margin-top: 0;
+        /* Add some margin to separate the image from the text */
+    }
+}
+
+@media (max-width: 376px) {
+
+    .illustration-img {
+        max-width: 50%;
+        /* Adjust the width as needed */
+        height: auto;
+        margin-top: 0;
+        /* Add some margin to separate the image from the text */
+    }
+
+}
+
+.dropdown-menu.adjusted {
+    left: -5rem;
+}
+
+
+
+.project-card {
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+#three {
+    background-color: #f8f9fa;
+    /* Set the background color as desired */
+    padding-top: 4rem;
+    /* Adjust the padding as needed */
+    padding-bottom: 2rem;
+    /* Adjust the padding as needed */
+}
+
+#three .container {
+    width: 100%;
+    /* Make the container cover the entire width */
+}
+
+/* Rest of your CSS styles */
+
