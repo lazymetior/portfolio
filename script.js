@@ -5,9 +5,22 @@ prjBtn.addEventListener("click", function () {
   prjSec.scrollIntoView({ behavior: "smooth" });
 });
 
-const cntBtn = document.getElementById("cntBtn");
 
-cntBtn.addEventListener("click", function () {
-  const cntSec = document.getElementById("contact");
-  cntSec.scrollIntoView({ behavior: "smooth" });
-});
+
+
+function downloadPDF() {
+  // Replace 'your-pdf-file.pdf' with the actual path to your PDF file
+  var pdfUrl = 'Resume.pdf';
+
+  // Create a temporary anchor element
+  var link = document.createElement('a');
+  link.href = pdfUrl;
+  link.download = 'Resume.pdf'; // You can specify the downloaded file name here
+
+  // Trigger the click event to initiate the download
+  link.click();
+}
+
+// Attach the downloadPDF function to the button click event
+let downloadButton = document.getElementById('rsdBtn');
+downloadButton.addEventListener('click', downloadPDF);
