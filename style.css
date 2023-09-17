@@ -7,9 +7,48 @@ body {
     min-height: 100vh;
 }
 
+
+
+#nav-part-2{
+    display: flex;
+    gap: 2vw;
+    align-items: center;
+    padding-right: 2vw;
+    font-size: 1.4vw;
+}
+
+#nav-part-2 li a:hover{
+
+text-decoration: solid underline rgb(98, 24, 195) 4px;
+}
+
+
+#nav-part-2-dropdown{
+    display: none;
+}
+
+@media (max-width:600px) {
+
+    #nav-part-2{
+        display: none;
+    }
+    #nav-part-2-dropdown{
+        display: flex;
+    }
+}
+
+video {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    object-fit: cover;
+    z-index: -1;
+}
+
+
 #home {
 
-
+position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;

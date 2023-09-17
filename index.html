@@ -27,7 +27,15 @@
       <ul class="nav nav-pills">
         <li class="nav-item"></li>
 
-        <li class="nav-item dropdown">
+        <ul class="nav" id="nav-part-2">
+          <li><a class="dropdown-item" href="#home">Home</a></li>
+            <li><a class="dropdown-item" href="#about">About</a></li>
+            <li><a class="dropdown-item" href="#services">Services</a></li>
+            <li><a class="dropdown-item" href="#projects">Projects</a></li>
+            <li><a class="dropdown-item" href="#contact">Contact</a></li>
+        </ul>
+
+        <li class="nav-item dropdown" id="nav-part-2-dropdown">
           <a
             class="btn btn-primary dropdown-toggle"
             style="color: white"
@@ -49,7 +57,8 @@
     </nav>
     <div class="wrapper">
       <div class="content">
-        <div class="bg-dark text-light text-center py-5" id="home">
+        <div class="text-light text-center py-5" id="home">
+          <video autoplay loop muted src="vids/vid.mp4"></video>
           <div class="container">
             <h1 class="display-4">
               I'm Jignesh and welcome to my portfolio site
@@ -57,7 +66,7 @@
 
             <!-- Modify the img tag to make the illustration responsive -->
             <img
-              src="ilustration.png"
+              src="/imgs/ilustration.png"
               alt="Illustration"
               class="img-fluid illustration-img"
             />
@@ -86,7 +95,7 @@
             <div class="row mt-4">
               <div class="col-md-6">
                 <img
-                  src="perosn.avif"
+                  src="/imgs/perosn.avif"
                   alt="Profile Picture"
                   class="profile-img img-fluid"
                 />
@@ -303,7 +312,7 @@
           <div class="col-12 col-md-3">
             <img
               class="mb-2"
-              src="business-man.png"
+              src="imgs/business-man.png"
               alt="image"
               width="50"
               height="50"

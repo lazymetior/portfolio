@@ -10,12 +10,12 @@ prjBtn.addEventListener("click", function () {
 
 function downloadPDF() {
   // Replace 'your-pdf-file.pdf' with the actual path to your PDF file
-  var pdfUrl = 'Resume.pdf';
+  var pdfUrl = 'cv/Resume.pdf';
 
   // Create a temporary anchor element
   var link = document.createElement('a');
   link.href = pdfUrl;
-  link.download = 'Resume.pdf'; // You can specify the downloaded file name here
+  link.download = 'cv/Resume.pdf'; // You can specify the downloaded file name here
 
   // Trigger the click event to initiate the download
   link.click();
